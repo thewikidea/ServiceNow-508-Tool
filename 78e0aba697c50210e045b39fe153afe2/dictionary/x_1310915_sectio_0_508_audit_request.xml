@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0841e3e697c50210e045b39fe153af0e" extends="task" label="508 Audit Request" max_length="40" name="x_1310915_sectio_0_508_audit_request" type="collection">
+        <element label="Application/System/Website Name" max_length="40" name="application_system_website_name" type="string"/>
+        <element label="Audit Due Date" max_length="255" name="audit_due_date" type="glide_date"/>
+        <element label="Audit Results" max_length="40" name="audit_results" type="file_attachment"/>
+        <element choice="1" label="Audit Status" max_length="40" name="audit_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pended" sequence="0" value="Pended"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="Assigned"/>
+                <element inactive_on_update="false" label="In Process" sequence="2" value="In Process"/>
+                <element inactive_on_update="false" label="In QA" sequence="3" value="In QA"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="Completed"/>
+                <element inactive_on_update="false" label="Completed and Accepted" sequence="5" value="Completed and Accepted"/>
+                <element inactive_on_update="false" label="Closed" sequence="6" value="Closed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Conformance" max_length="40" name="conformance" type="choice">
+            <choice/>
+        </element>
+        <element label="Date Access Granted" max_length="255" name="date_access_granted" type="glide_date"/>
+        <element label="Date Access Requested" max_length="255" name="date_access_requested" type="glide_date"/>
+        <element label="Date Audit Assigned" max_length="255" name="date_audit_assigned" type="glide_date"/>
+        <element label="Date Audit Completed" max_length="255" name="date_audit_completed" type="glide_date"/>
+        <element formula="DATEDIF(date_audit_assigned,date_audit_completed,&quot;d&quot;)" label="Days to Complete" max_length="255" name="days_to_complete_from_access_granted" type="decimal" virtual="true" virtual_type="formula"/>
+        <element label="Document" max_length="255" name="document" type="file_attachment"/>
+        <element choice="1" label="Document Type" max_length="40" name="document_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Microsoft Word" sequence="0" value="Word"/>
+                <element inactive_on_update="false" label="Microsoft Excel" sequence="1" value="Excel"/>
+                <element inactive_on_update="false" label="Microsoft PowerPoint" sequence="2" value="PowerPoint"/>
+                <element inactive_on_update="false" label="Portable Document Format (PDF)" sequence="3" value="PDF"/>
+                <element inactive_on_update="false" label="Form" sequence="4" value="Form"/>
+            </choice>
+        </element>
+        <element choice="1" label="Organization" max_length="40" name="organization" type="choice">
+            <choice/>
+        </element>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Primary Auditor" max_length="32" name="primary_auditor" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Secondary Auditor" max_length="32" name="secondary_auditor" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element choice="1" label="Accessibility Audit Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Desktop Applications" sequence="0" value="Desktop Applications"/>
+                <element inactive_on_update="false" label="Websites/Web-hosted Application" sequence="1" value="Website"/>
+                <element inactive_on_update="false" label="Documents (pdf, forms, surveys, etc.)" sequence="2" value="Document"/>
+                <element inactive_on_update="false" label="Video/MultiMedia" sequence="3" value="Video/MultiMedia"/>
+                <element inactive_on_update="false" label="Self-contained/Closed Products or Telecom Products" sequence="4" value="Self-contained/Closed Products or Telecom Products"/>
+                <element inactive_on_update="false" label="Elearning" sequence="5" value="Elearning"/>
+                <element inactive_on_update="false" label="Mobile" sequence="6" value="Mobile"/>
+            </choice>
+        </element>
+        <element label="URL" max_length="40" name="url" type="string"/>
+        <element label="VA Approval Date" max_length="255" name="va_approval_date" type="calendar_date_time"/>
+    </element>
+</database>
