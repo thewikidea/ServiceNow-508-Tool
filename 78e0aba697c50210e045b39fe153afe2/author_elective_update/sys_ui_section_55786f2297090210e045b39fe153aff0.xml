@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="x_1310915_sectio_0_508_audit_request" section_id="55786f2297090210e045b39fe153aff0" sys_domain="global" table="x_1310915_sectio_0_508_audit_request" version="3" view="Website">
+        <sys_ui_section action="DELETE">
+            <caption>x_1310915_sectio_0_508_audit_request</caption>
+            <header>false</header>
+            <name>x_1310915_sectio_0_508_audit_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-23 08:50:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55786f2297090210e045b39fe153aff0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1310915_sectio_0_508_audit_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Section 508 Audit" source="x_1310915_sectio_0">78e0aba697c50210e045b39fe153afe2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Section 508 Audit">78e0aba697c50210e045b39fe153afe2</sys_scope>
+            <sys_update_name>sys_ui_section_55786f2297090210e045b39fe153aff0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-23 08:50:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Website" name="Website">1d786f2297090210e045b39fe153afeb</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Section 508 Audit">78e0aba697c50210e045b39fe153afe2</application>
+        <file_path/>
+        <instance_id>5a30726ddbad1fc07e55d5b0cf961962</instance_id>
+        <instance_name>dev56578</instance_name>
+        <name>sys_ui_section_55786f2297090210e045b39fe153aff0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="x_1310915_sectio_0_508_audit_request" section_id="55786f2297090210e045b39fe153aff0" sys_domain="global" table="x_1310915_sectio_0_508_audit_request" version="3" view="Website"><sys_ui_section action="INSERT_OR_UPDATE"><caption>x_1310915_sectio_0_508_audit_request</caption><header>false</header><name>x_1310915_sectio_0_508_audit_request</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-23 08:50:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>55786f2297090210e045b39fe153aff0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1310915_sectio_0_508_audit_request</sys_name><sys_overrides/><sys_package display_value="Section 508 Audit" source="x_1310915_sectio_0">78e0aba697c50210e045b39fe153afe2</sys_package><sys_policy/><sys_scope display_value="Section 508 Audit">78e0aba697c50210e045b39fe153afe2</sys_scope><sys_update_name>sys_ui_section_55786f2297090210e045b39fe153aff0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-23 08:50:54</sys_updated_on><sys_user/><title>false</title><view display_value="Website" name="Website">1d786f2297090210e045b39fe153afeb</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1327343726</payload_hash>
+        <record_name>508 Audit Request</record_name>
+        <reverted_from/>
+        <source>f8e0aba697c50210e045b39fe153afe6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 08:50:54</sys_created_on>
+        <sys_id>9d786f2297090210e045b39fe153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e6a817c740000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 08:50:54</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>15786f22b8090210de9d4c43fd7012f2</update_guid>
+        <update_guid_history>15786f22b8090210de9d4c43fd7012f2:-1327343726</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 09:43:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>52cd85968c08495c9085a29e29dc9010</sys_id>
+        <sys_metadata>55786f2297090210e045b39fe153aff0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1310915_sectio_0_508_audit_request</sys_name>
+        <sys_package display_value="Section 508 Audit" source="x_1310915_sectio_0">78e0aba697c50210e045b39fe153afe2</sys_package>
+        <sys_parent display_value="508 Audit Request">0841e3e697c50210e045b39fe153af0e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Section 508 Audit">78e0aba697c50210e045b39fe153afe2</sys_scope>
+        <sys_scope_delete display_value="">4146100b60b646ccb7ae8b74442812f9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_55786f2297090210e045b39fe153aff0</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_55786f2297090210e045b39fe153aff0">9d786f2297090210e045b39fe153aff2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-23 09:43:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
